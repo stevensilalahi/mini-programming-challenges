@@ -15,12 +15,14 @@ int main()
     string word;
     
     //String input
+    cout<<"This program converts any word into morse code"<<endl;
     cout<<"Enter a word: ";
     cin >> word;
     
     //calls function for morse conversion.
-    cout<<"Morse: ";
+    cout<<word<<" in morse is ";
     convertToMorse(word);
+    cout<<""<<endl;
     cout<<""<<endl;
     
     return 0;
